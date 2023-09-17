@@ -36,7 +36,7 @@ const PostImage = () => {
         <div className="flex justify-between">
           <div className="flex items-center gap-3">
             <Image
-              className="h-auto max-w-full rounded-full"
+              className="h-auto max-w-full rounded-full hover:scale-150 hover:rounded-none"
               alt=""
               src={"/uploads/kita4.png"}
               width={40}
@@ -50,6 +50,7 @@ const PostImage = () => {
         </div>
         <div>
           <Image
+            // onDoubleClick={() => }
             onClick={() => {
               setActiveIdx(0);
               setVisible(true);

@@ -16,7 +16,7 @@ const CardImage = ({ src, alt, activeIdx, visible }: image) => {
           activeIdx();
           visible();
         }}
-        className="md:p-1 p-[2px] object-fill md:w-[65px] w-[30px] md:h-[60px] h-[30px]"
+        className="md:p-1 p-[2px] object-fill md:w-[65px] w-[30px] md:h-[60px] h-[30px] hover:scale-150"
         src={src}
         alt={alt}
         width={70}

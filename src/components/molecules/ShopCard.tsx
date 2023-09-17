@@ -11,7 +11,7 @@ const ShopCard = () => {
       <div className="flex flex-col justify-center items-center md:text-sm text-[8px] font-custom font-bold md:gap-2 gap-[2px] pt-2 md:pb-5 pb-1">
         <p className="">Guitar</p>
         <Image
-          className="rounded-[50%] md:w-10 w-7 md:h-10 h-7"
+          className="rounded-[50%] md:w-10 w-7 md:h-10 h-7 hover:scale-150 hover:rounded-none"
           src={"/uploads/kita4.png"}
           alt=""
           width={40}
