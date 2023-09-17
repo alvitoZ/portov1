@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .blinking-cursor:after {
+    content: "|";
+    @apply text-purple-700;
+    animation: blink 1s infinite;
+
+    /* .text-write {
+      overflow: hidden;
+      animation: write 2s steps(20, end) infinite;
+    } */
+  }
+
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+}
+
+@layer base {
+  body {
+    @apply lg:text-xl text-sm overflow-x-hidden;
+  }
+  h1 {
+    @apply font-bold lg:text-2xl text-lg;
+  }
+}
+
+@keyframes text-writing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.text-writing {
+  animation: text-writing 2s steps(30, end) forwards;
+
+  /* tambahkan properti lainnya sesuai kebutuhan */
+}
+
+.container {
+  @apply flex flex-col;
+}
+
+body.dark {
+  background-color: #1a202c;
+  color: #f7fafc;
+  transition: background-color 2s ease-in-out, color 2s ease-in-out;
+}
+
+/* .hyperlink {
+  @apply block mt-4 lg:inline-block lg:mt-0 mr-4;
+} */
+
+.popup {
+  @apply transition ease-in-out delay-150 bg-violet-600 hover:-translate-y-1 hover:scale-110 hover:bg-violet-700 duration-300;
+}
+
+* {
+  /* font-family: DM Sans; */
+  border: 1px solid black;
+}
+
+/* footer animation */
+@keyframes coba2 {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(1.2);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(2);
+  }
+}
+.active\:animate-coba2:active {
+  animation: coba2 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.shadowContent {
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
