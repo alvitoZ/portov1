@@ -10,13 +10,13 @@ type image = {
 
 const CardImage = ({ src, alt, activeIdx, visible }: image) => {
   return (
-    <div className={`bg-blue-50`}>
+    <div className={`bg-blue-100`}>
       <Image
         onClick={() => {
           activeIdx();
           visible();
         }}
-        className="md:p-1 p-[2px] object-fill md:w-[65px] w-[30px] md:h-[60px] h-[30px] hover:scale-150"
+        className="md:p-1 p-[2px] md:w-[65px] w-[30px] md:h-[60px] h-[30px] hover:scale-125 object-cover cursor-pointer"
         src={src}
         alt={alt}
         width={70}

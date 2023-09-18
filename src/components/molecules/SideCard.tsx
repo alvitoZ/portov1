@@ -8,24 +8,24 @@ const SideCard = () => {
   const [activeIdx, setActiveIdx] = useState<number>(0);
   const images = [
     {
-      src: "/uploads/kita5.jpeg",
-      alt: "kita ikuyo",
-      downloadUrl: "",
+      src: "/uploads/bocchi.jpg",
+      alt: "hitori gotou",
+      downloadUrl: "https://www.pixiv.net/en/artworks/105063293",
     },
     {
-      src: "/uploads/kita5.jpeg",
-      alt: "kita ikuyo",
-      downloadUrl: "",
+      src: "/uploads/nijika.jpg",
+      alt: "ijichi nijika",
+      downloadUrl: "https://www.pixiv.net/en/artworks/105063293",
     },
     {
-      src: "/uploads/kita5.jpeg",
-      alt: "kita ikuyo",
-      downloadUrl: "",
+      src: "/uploads/ryo.jpg",
+      alt: "yamada ryo",
+      downloadUrl: "https://www.pixiv.net/en/artworks/105063293",
     },
     {
-      src: "/uploads/kita5.jpeg",
+      src: "/uploads/kita.jpg",
       alt: "kita ikuyo",
-      downloadUrl: "",
+      downloadUrl: "https://www.pixiv.net/en/artworks/105063293",
     },
   ];
   return (

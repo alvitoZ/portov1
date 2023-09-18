@@ -20,7 +20,7 @@ const BlankTemplate: NextPage<props> = ({ children }) => {
 
   return (
     <>
-      <div className="flex-col md:px-[27%] px-[10%] py-10 min-h-screen flex w-full">
+      <div className="flex-col md:px-[27%] px-[5%] py-10 min-h-screen flex w-full">
         <CommonSEO
           title={"kitanv1"}
           description="Description of Create Next Page by aing"

@@ -7,24 +7,24 @@ const ImageCard = () => {
   const [activeIdx, setActiveIdx] = useState<number>(0);
   const images = [
     {
-      src: "/uploads/kita5.jpeg",
+      src: "/uploads/left1.jpg",
       alt: "kita ikuyo",
-      downloadUrl: "",
+      downloadUrl: "https://www.pixiv.net/en/artworks/103626004",
     },
     {
-      src: "/uploads/kita5.jpeg",
+      src: "/uploads/left2.jpg",
       alt: "kita ikuyo",
-      downloadUrl: "",
+      downloadUrl: "https://www.pixiv.net/en/artworks/103626004",
     },
     {
-      src: "/uploads/kita5.jpeg",
+      src: "/uploads/left3.jpg",
       alt: "kita ikuyo",
-      downloadUrl: "",
+      downloadUrl: "https://www.pixiv.net/en/artworks/103626004",
     },
     {
-      src: "/uploads/kita5.jpeg",
+      src: "/uploads/left4.jpg",
       alt: "kita ikuyo",
-      downloadUrl: "",
+      downloadUrl: "https://www.pixiv.net/en/artworks/103626004",
     },
   ];
   return (

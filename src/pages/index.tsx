@@ -2,7 +2,7 @@ import BlankTemplate from "@/components/templates/BlankTemplate";
 import dynamic from "next/dynamic";
 
 const index = () => {
-  const Section1 = dynamic(() => import("../components/organisms/Section1"), {
+  const PostImage = dynamic(() => import("../components/organisms/PostImage"), {
     ssr: false,
   });
   const LeftSection = dynamic(
@@ -15,7 +15,7 @@ const index = () => {
   );
   return (
     <BlankTemplate>
-      <Section1 />
+      <PostImage />
       <LeftSection />
       <RightSection />
     </BlankTemplate>
