@@ -1,5 +1,6 @@
 import BlankTemplate from "@/components/templates/BlankTemplate";
 import dynamic from "next/dynamic";
+import { CommonSEO } from "@/components/SEO";
 
 const index = () => {
   const PostImage = dynamic(() => import("../components/organisms/PostImage"), {
@@ -15,6 +16,10 @@ const index = () => {
   );
   return (
     <BlankTemplate>
+      <CommonSEO
+        title={"kitanv1 ui/ux"}
+        description="Description of Create Next Page by aing"
+      />
       <PostImage />
       <LeftSection />
       <RightSection />
