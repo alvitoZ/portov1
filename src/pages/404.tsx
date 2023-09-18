@@ -1,7 +1,9 @@
 import Image from "next/image";
+import { CommonSEO } from "@/components/SEO";
 const ZeroFourZero = () => {
   return (
     <div>
+      <CommonSEO title={"ikuyover"} description="page 404 undefined" />
       <article>
         <h2>Who is Kita?</h2>
         <p>
@@ -15,7 +17,7 @@ const ZeroFourZero = () => {
         </p>
       </article>
       <Image
-        src="/uploads/ikuyo.jpg"
+        src="/uploads/ikuyo4.jpg"
         alt="kita ikuyo"
         width={901}
         height={1600}

@@ -64,7 +64,6 @@ const SvgFooter = ({ total }: child) => {
             url: "",
             title: "",
           }}
-          onClick={() => console.log("shared successfully!")}
         >
           <svg
             aria-label="Share Post"
