@@ -39,6 +39,7 @@ const ImagePost = () => {
           return (
             <SwiperSlide key={i}>
               <Image
+                priority
                 // onDoubleClick={() => }
                 onClick={() => {
                   setActiveIdx(i);
