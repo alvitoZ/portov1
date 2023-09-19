@@ -22,6 +22,11 @@ const ImagePost = () => {
       alt: "kita ikuyo",
       downloadUrl: "https://www.pixiv.net/en/artworks/104270172",
     },
+    {
+      src: "/uploads/404.jpg",
+      alt: "kita ikuyo",
+      downloadUrl: "https://kitanv1.vercel.app/404",
+    },
   ];
 
   return (
