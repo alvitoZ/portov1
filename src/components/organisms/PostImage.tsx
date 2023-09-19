@@ -19,7 +19,7 @@ const PostImage = () => {
     "Who is Kita? For the blind, she is vision. For the hungry, she is the chef. For the thirsty, she is water. If Kita thinks, I agree. If Kita speaks, I’m listening. If Kita has a million fans, I am one of them. If Kita has ten fans, I am one of them. If Kita has only one fan, that is me. If Kita has no fans, I no longer exist. If the whole world is against Kita , I am against the whole world. I will love Kita until my very last breath.";
 
   return (
-    <div className="flex justify-center shadowContent pt-20 pb-5">
+    <div className="flex justify-center shadowContent pt-20 pb-5 w-fit h-fit px-10 rounded-sm">
       <div className="flex flex-col gap-2">
         <div className="flex justify-between">
           <div className="flex items-center gap-3">

@@ -19,7 +19,7 @@ const BlankTemplate: NextPage<props> = ({ children }) => {
 
   return (
     <>
-      <div className="flex-col md:px-[27%] px-[5%] py-10 min-h-screen flex w-full">
+      <div className="flex-col py-10 min-h-screen flex w-full justify-center items-center overflow-hidden">
         {children}
       </div>
     </>

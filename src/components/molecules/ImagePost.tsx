@@ -26,7 +26,7 @@ const ImagePost = () => {
 
   return (
     <>
-      <Swiper className="mySwiper xl:w-[520px] lg:w-[450px] md:w-[320px] sm:w-[300px] w-60 md:h-[420px] h-[340px]">
+      <Swiper className="mySwiper max-h-[700px] h-[65vh] max-w-[500px] w-[80vw] ">
         {images.map(({ alt, src }, i) => {
           return (
             <SwiperSlide key={i}>

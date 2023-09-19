@@ -93,7 +93,9 @@ body.dark {
 }
 
 .shadowContent {
-  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: -1px 1px 12px 3px rgba(0, 0, 0, 0.79);
+  -webkit-box-shadow: -1px 1px 12px 3px rgba(0, 0, 0, 0.79);
+  -moz-box-shadow: -1px 1px 12px 3px rgba(0, 0, 0, 0.79);
 }
 
 /* swiper */
